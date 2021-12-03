@@ -1,0 +1,7 @@
+.header {
+    background: red;
+    color: black;
+    &__container {
+        max-width: 1400px;
+    }
+}
