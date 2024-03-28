@@ -1,16 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-  <link rel="stylesheet" href="css/main.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <title>Trafalgar</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <h1 class="visually-hidden">Trafalgar</h1>
 
-  <h1>Sass bem starter</h1>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <a href="#">
+            <img src="./img/logo.svg" alt="logo" class="header__logo" />
+          </a>
 
+          <ul class="header__list">
+            <li>
+              <a class="header__link home" href="#">Home</a>
+            </li>
+            <li>
+              <a class="header__link" href="#">Find a doctor</a>
+            </li>
+            <li>
+              <a class="header__link" href="#">Apps</a>
+            </li>
+            <li>
+              <a class="header__link" href="#">Testimonials</a>
+            </li>
+            <li>
+              <a class="header__link" href="#">About us</a>
+            </li>
+          </ul>
 
-  <script src="js/main.js"></script>
-</body>
+          <ul class="header__menu d-none">
+            <li>
+              <a class="header__link home" href="#">Home</a>
+            </li>
+            <li>
+              <a class="header__link" href="#">Find a doctor</a>
+            </li>
+            <li>
+              <a class="header__link" href="#">Apps</a>
+            </li>
+            <li>
+              <a class="header__link" href="#">Testimonials</a>
+            </li>
+            <li>
+              <a class="header__link" href="#">About us</a>
+            </li>
+          </ul>
+
+          <script src="https://cdn.lordicon.com/lordicon.js"></script>
+          <lord-icon
+            class="header__open-icon"
+            src="https://cdn.lordicon.com/pcllgpqm.json"
+            trigger="hover"
+            style="width: 50px; height: 50px"
+          >
+          </lord-icon>
+
+          <script src="https://cdn.lordicon.com/lordicon.js"></script>
+          <lord-icon
+            class="header__close-icon d-none"
+            src="https://cdn.lordicon.com/ofcynlwa.json"
+            trigger="hover"
+            style="width: 50px; height: 50px"
+          >
+          </lord-icon>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="virtual">
+        <div class="container">
+          <div class="virtual__container">
+            <div class="virtual__content">
+              <h2 class="virtual__title">Virtual healthcare for you</h2>
+              <p class="virtual__text">
+                Trafalgar provides progressive, and affordable healthcare,
+                accessible on mobile and online for everyone
+              </p>
+              <a class="virtual__link" href="#">Consult Today</a>
+            </div>
+
+            <img
+              class="virtual__img"
+              src="./img/illustration.png"
+              alt="virtual image"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container"></div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
