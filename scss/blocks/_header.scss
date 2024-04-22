@@ -1,0 +1,32 @@
+.header {
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+  }
+
+  &__link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.59px;
+    text-align: left;
+    color: #1F1534;
+    opacity: 50%;
+  }
+
+}
+
+.home {
+  color: #1F1534;
+  opacity: 1 !important;
+}
